@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-30 02:05:09.240415",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "read_fields",
+  "column_break_puur",
+  "ddd",
+  "section_break_zgwk",
+  "doc_fields",
+  "tab_2_tab",
+  "locale",
+  "column_break_rnxb"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_puur",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zgwk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "doc_fields",
+   "fieldtype": "Table",
+   "label": "Fields",
+   "options": "Faker Doctype Table"
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Link",
+   "label": "DocType",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "read_fields",
+   "fieldtype": "Button",
+   "label": "Read Fields"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Settings"
+  },
+  {
+   "default": "uk_UA",
+   "fieldname": "locale",
+   "fieldtype": "Autocomplete",
+   "label": "Locale"
+  },
+  {
+   "fieldname": "column_break_rnxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ddd",
+   "fieldtype": "Data",
+   "label": "ddd"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-04 23:35:06.490299",
+ "modified_by": "Administrator",
+ "module": "Frappe Faker",
+ "name": "Faker Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
